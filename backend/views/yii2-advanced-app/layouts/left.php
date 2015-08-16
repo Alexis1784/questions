@@ -14,7 +14,7 @@ use yii\bootstrap\Nav;
                 <div class="pull-left info">
                     <p>Hello, <?= @Yii::$app->user->identity->username ?></p>
                     <a href="<?= $directoryAsset ?>/#">
-                        <i class="fa fa-circle text-success"></i> Онлайн
+                        <i class="fa fa-circle text-success"></i> Онлайн4
                     </a>
                 </div>
             </div>
