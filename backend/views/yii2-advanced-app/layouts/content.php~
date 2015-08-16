@@ -6,7 +6,7 @@ use dmstr\widgets\Alert;
     <section class="content-header">
 <?php echo \sintret\chat\ChatRoom::widget([ 
 	'url' => \yii\helpers\Url::to(['/chat/send-chat']), 
-	'userModel'=> \common\models\User::className(), 
+	'userModel'=> \app\models\User::className(), 
 	'userField' => 'avatarImage' 
 ]); ?>
         <h1>
